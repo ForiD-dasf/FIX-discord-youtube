@@ -1,18 +1,18 @@
 # FIX-discord-youtube
 <div align="center">
 
-# <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
+# <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="https://github.com/ForiD-dasf/zapret-discord-youtube" target="_blank">zapret-discord-youtube</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
 
-**NEW**: Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy  
-Альтернатива https://github.com/bol-van/zapret-win-bundle  
-Также вы можете материально поддержать оригинального разработчика zapret [тут]()
+**NEW**: Ускорение Telegram Desktop - [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)  
+Альтернатива [zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle)  
+Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret)
 </div>
 
 > [!CAUTION]
 >
 > ### ФЕЙКИ
 > Я не веду никакие другие страницы/группы в телеграм/ютуб каналы  
-> Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - **ФЕЙК**.
+> Если вы наткнулись на что-то вне страницы [этого репозитория](https://github.com/ForiD-dasf/zapret-discord-youtube), что распространяется от моего лица - **ФЕЙК**.
 
 > [!WARNING]
 >
@@ -21,14 +21,14 @@
 > WinDivert - это инструмент для перехвата и фильтрации трафика, необходимый для работы zapret.
 > Он может использоваться как хорошими, так и плохими программами, но сам по себе не является вирусом.
 >
-> **Выдержка из [`readme.md`]()*
+> **Выдержка из [`readme.md`](https://github.com/bol-van/zapret-win-bundle)*
 >
 > Некоторые антивирусы склонны относить файлы WinDivert к классам повышенного риска или хакерским инструментам. Происходит удаление файла и помещение его в карантин. При этом детект обязательно имеет название `WinDivert` или `Not-a-virus:RiskTool.Multi.WinDivert`
 >
 > Добавьте папку с запретом в исключения антивируса, либо отключите детектирование PUA (потенциально нежелательных приложений). Например, в касперском есть галочка "Обнаруживать легальные приложения, которые злоумышленники часто используют для нанесения вреда". При аккуратной и правильной настройке исключений - рекомендуется настроить исключение, но если вы не до конца понимаете что делаете - рекомендуется отключить детект PUA.
 
 > [!IMPORTANT]
-> Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws) и [zapret/releases](https://github.com/bol-van/zapret/releases). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
+> Все бинарные файлы в папке [`bin`](https://github.com/ForiD-dasf/zapret-discord-youtube/tree/main/bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws) и [zapret/releases](https://github.com/bol-van/zapret/releases). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
 
 ## ⚙️Использование
 
@@ -38,7 +38,7 @@
     * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://remontka.pro/dns-over-https-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
     * Если у вас роутер Keenetic, включите в настройках роутера опцию "Транзит запросов". Отключение этой опции может привести к проблемам при настройке и использовании Secure DNS на компьютере
 
-2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
+2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/ForiD-dasf/zapret-discord-youtube/releases/latest)
 
 3. Зайдите в свойства скачанного архива и поставьте галочку "Разблокировать". Если вы используете архиватор 7-Zip или PeaZip, этот шаг можно пропустить
 
@@ -48,11 +48,11 @@
 
 ## ℹ️Краткие описания файлов
 
-- [**`general.bat ...`**](./general.bat) - запуск стратегии вручную
+- [**`general.bat ...`**](https://github.com/ForiD-dasf/zapret-discord-youtube/blob/main/general.bat) - запуск стратегии вручную
 
   Запуск вручную можно использовать для проверки работоспособности стратегий. Работоспособность той или иной стратегии зависит от многих факторов. **Пробуйте разные стратегии (ALT, FAKE и другие), пока не найдёте рабочее для вас решение**
 
-- [**`service.bat`**](./service.bat) - установка в автозапуск и другие функции:
+- [**`service.bat`**](https://github.com/ForiD-dasf/zapret-discord-youtube/blob/main/service.bat) - установка в автозапуск и другие функции:
   - <ins>**`Install Service`** - установка любой стратегии в автозапуск (services.msc)</ins>
   - **`Remove Services`** - удаление стратегии и WinDivert из служб
   - **`Check Status`** - проверка статуса обхода и служб (стратегии на автозапуске и WinDivert)
@@ -82,7 +82,7 @@
 ### После запуска скрипта `general*` ничего не происходит
 
 - После запуска стратегии (отдельным bat файлом, не через service), должен открыться winws.exe (обход), который можно увидеть в панели задач.  
-Если этого не произошло, то см. [#522](https://github.com/Flowseal/zapret-discord-youtube/issues/522)
+Если этого не произошло, то см. [#522](https://github.com/ForiD-dasf/zapret-discord-youtube/issues/522)
 
 ### Ни одна стратегия не подходит
 - Запустите командную строку от имени администратора
@@ -121,7 +121,7 @@
 
 - Попробуйте полную переустановку (см. раздел ниже)
 
-- См. [#765](https://github.com/Flowseal/zapret-discord-youtube/issues/765)
+- См. [#765](https://github.com/ForiD-dasf/zapret-discord-youtube/issues/765)
 
 ### Как переустановить/обновить полностью?
 - Сохраните ресурсы/данные, которые вы сами добавляли
@@ -129,7 +129,7 @@
 - `service.bat` -> `Remove Services`
 - `service.bat` -> `Run Diagnostics` (если есть ошибки - устраните их) -> в конце Y
 - Удалите папку с запретом
-- Скачайте последнюю версию [со страницы релизов](https://github.com/Flowseal/zapret-discord-youtube/releases) (`zapret-discord-youtube-...`)
+- Скачайте последнюю версию [со страницы релизов](https://github.com/ForiD-dasf/zapret-discord-youtube/releases) (`zapret-discord-youtube-...`)
 - Нажмите пкм по архиву -> свойства. Если снизу справа есть галочка разблокировать, то нажмите на неё -> применить -> ОК
 - Распакуйте в новую папку в корне диска (без спец. символов и пробелов)
 - Далее пробуйте запускать различные `general` скрипты (стратегии). Проверьте доступность интернет ресурсов - если не работают, то закрывайте программу (в панели задач иконка замочка) и пробуйте другую стратегию
@@ -145,52 +145,11 @@
 
 ### Требуется цифровая подпись драйвера WinDivert (Windows 7)
 
-- Замените файлы `WinDivert.dll` и `WinDivert64.sys` в папке [`bin`](./bin) на одноименные из [zapret-win-bundle/win7](https://github.com/bol-van/zapret-win-bundle/tree/master/win7)
+- Замените файлы `WinDivert.dll` и `WinDivert64.sys` в папке [`bin`](https://github.com/ForiD-dasf/zapret-discord-youtube/tree/main/bin) на одноименные из [zapret-win-bundle/win7](https://github.com/bol-van/zapret-win-bundle/tree/master/win7)
 
-### При удалении с помощью [**`service.bat`**](./service.bat), WinDivert остается в службах
+### При удалении с помощью [**`service.bat`**](https://github.com/ForiD-dasf/zapret-discord-youtube/blob/main/service.bat), WinDivert остается в службах
 
 1. Узнайте название службы с помощью команды, в командной строке Windows (Win+R, `cmd`):
 
 ```cmd
 driverquery | find "Divert"
-```
-
-2. Остановите и удалите службу командами:
-
-```cmd
-sc stop название_из_первого_шага
-
-sc delete название_из_первого_шага
-```
-
-### Не работает <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=18 /> YouTube
-
-- Убедитесь что вы настроили [Secure DNS](#%EF%B8%8Fиспользование)
-- Отключите блокировщик рекламы, известно что YouTube начал с ними бороться.
-- Пробуйте все другие стратегии (если раньше работало, но перестало).
-- См. также [#251](https://github.com/Flowseal/zapret-discord-youtube/discussions/251)
-
-### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=18 /> Discord
-
-- Убедитесь что вы настроили [Secure DNS](#%EF%B8%8Fиспользование)
-- Желательно сначала узнать, на какой стратегии открывается сайт YouTube. Запустите эту стратегию.
-- Запустите `service.bat` -> `Run Diagnostics` и выполните там очистку кэша Discord.
-- Проверьте приложение Discord. Помогла ли очистка кэша?
-- Проверьте Discord в браузере: https://discord.com/app. В браузере работает? Если работает, то можете пользоваться в нём.
-- Если Discord и в браузере не работает, то пробуйте ещё раз все стратегии. Бывает такое, что на одной стратегии YouTube работает, а Discord нет.
-- См. также [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
-
-### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" height=18 /> Telegram
-
-- Используйте программу [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)
-- Или используйте бесплатные MTProto прокси из интернета
-
-### Не работают игры
-
-Есть много разных игр. Исследовать и чинить каждую из них нет возможности.
-
-Наиболее универсальный рецепт такой:
-- через `service.bat` обновите ipset и включите `Game Filter`
-- если это не поможет, то попробуйте также включить настройку `ipset any`
-
-Но помните, что при включении `ipset any` появятся проблемы с открытием многих сайтов. Чтобы этого избежать, не используйте `ipset any` на постоянной основе. Вместо этого нужно выяснить все IP адреса, которые используются игрой, и добавить их в `ipset-all.txt`
