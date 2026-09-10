@@ -1,5 +1,4 @@
 # FIX-discord-youtube
-# zapret-discord-youtube
 rus
 <div align="center">
 
